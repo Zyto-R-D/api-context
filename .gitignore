@@ -20,3 +20,8 @@ yarn-error.log*
 pnpm-debug.log*
 logs/
 *.log
+# IDEs and editors
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
