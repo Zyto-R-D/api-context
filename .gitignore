@@ -9,3 +9,7 @@ build/
 .out/
 .next/
 *.tsbuildinfo
+# env
+.env
+.env.*
+!.env.example
