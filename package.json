@@ -1,18 +1,13 @@
 {
   "name": "@zyto/api-context",
-  "version": "0.0.1",
-  "private": true,
+  "version": "0.1.0",
   "type": "module",
+  "description": "Canonical types and contracts shared across Zyto services.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc -p tsconfig.json",
-    "typecheck": "tsc -p tsconfig.json --noEmit",
-    "lint": "echo \"lint ok\"",
-    "test": "node -e \"process.exit(0)\""
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
   },
-  "dependencies": {},
-  "devDependencies": {
-    "typescript": "^5.5.0"
-  }
-}
