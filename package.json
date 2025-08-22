@@ -19,3 +19,4 @@
     "lint": "eslint . --ext .ts",
     "test": "vitest run",
     "prepare": "husky install"
+  },
