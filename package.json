@@ -20,3 +20,6 @@
     "test": "vitest run",
     "prepare": "husky install"
   },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {
+    "zod": "^3.23.8"
